@@ -27,6 +27,16 @@ export const Loader = (props: Props) => {
                     return <div className="w-24 h-8 rounded-lg bg-gray-300 animate-pulse duration-150 ease-in-out"></div>
                 })
             }
+            {
+                type == "catalogue-list" && Array(4).fill(4).map((item, i) => {
+                    return <div className="mt-3 grid md:grid-cols-5 min-h-[50vh] gap-4">
+                    <div className="w-full bg-gray-300 rounded-lg animate-pulse duration-150 ease-in-out row-span-4 col-span-2"></div>
+                    <div className="w-full bg-gray-300 rounded-lg animate-pulse duration-150 ease-in-out row-span-4"></div>
+                    <div className="w-full bg-gray-300 rounded-lg animate-pulse duration-150 ease-in-out row-span-2 col-span-2"></div>
+                    <div className="w-full bg-gray-300 rounded-lg animate-pulse duration-150 ease-in-out row-span-2 col-span-2"></div>
+                </div>
+                })
+            }
         </>
     )
 }

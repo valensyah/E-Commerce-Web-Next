@@ -28,7 +28,7 @@ export const Product = (props: any) => {
     }
 
     return (
-        <div className="md:mt-5 bg-white md:rounded-xl p-5 w-full min-h-screen md:min-h-[70vh] flex-col md:flex-row md:justify-start">
+        <div className="md:mt-5 bg-white md:rounded-xl p-5 w-full min-h-screen md:min-h-[70vh] flex flex-col md:flex-row md:justify-start">
             <div className="w-full md:w-6/12 h-full p-5 md:p-10">
                 <img src={item.image} className="w-full h-full" alt="" />
             </div>

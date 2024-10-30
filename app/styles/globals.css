@@ -7,7 +7,8 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  /* font-family: system-ui, sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -40,3 +41,45 @@ a {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.bg-catalogue-interior {
+  background-image: url('/catalogue/interior.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bg-catalogue-fashion {
+  background-image: url('/catalogue/fashion.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+.bg-catalogue-hoby {
+  background-image: url('/catalogue/hoby.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.bg-catalogue-gaming {
+  background-image: url('/catalogue/gaming.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+/* @media (max-width: 768px) {
+  .bg-catalogue-fashion {
+    background-position: top;
+    width: 33.3%;
+    height: 88px;
+    background-size: 100%;
+  }
+  .bg-catalogue-gaming {
+    width: 33.3%;
+    height: 88px;
+    background-size: 100%;
+  }
+} */
